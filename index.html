@@ -39,6 +39,23 @@
         width: 100%;
     }
 
+    .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            Left right：100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #fff;
+            border-top: 1px solid #eee;
+        }
+
+        .bottom-nav-item {
+            text-align: center;
+            font-size: 15px;
+            color: #666;
+
     .card-container {
         display: flex;
         flex-wrap: wrap;
@@ -1957,7 +1974,40 @@ NaiMei開房浴室深喉調情 撕裂黑絲扣玩粉穴激烈啪啪潮噴等
             </div>
         </div>
         <!-- 省略卡片内容，与原代码相同 -->
+    <div class="bottom-nav">
+        
+        <div class="bottom-nav-item" onclick="toggleNav()">
+            <div>📱</div>
+            <div>
+                <a href="https://abcd136.github.io/AZX/" style="color: black; text-decoration: none;">首页</a>
+                </div>
+        </div>
+        <div class="bottom-nav-item" onclick="toggleNav()">
+            <div>🎮</div>
+            <div>
+                <a href="https://abcd136.github.io/x43/" style="color: black; text-decoration: none;">吃瓜</a>
+            </div>
+        </div>
+        <div class="bottom-nav-item" onclick="toggleNav()">
+            <div>🛠️</div>
+            <div>
+                <a href="https://abcd136.github.io/x42/" style="color: black; text-decoration: none;">电脑</a>
+            </div>
+        </div>
+        <div class="bottom-nav-item" onclick="toggleNav()">
+            <div>🔍</div>
+            <div>
+                <a href="https://cn.bing.com/" style="color: black; text-decoration: none;">搜索</a>
+            </div>
+        </div>
     </div>
+    
+        <script>
+        function toggleNav() {
+            var bottomNav = document.querySelector('.bottom-nav');
+            bottomNav.classList.toggle('hidden');
+        }
+        </script>
 
     <script>
         function performSearch() {
